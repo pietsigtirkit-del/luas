@@ -2776,7 +2776,7 @@ function Menu.HandleInput()
                             Menu.ShowKeybinds = item.value
                         elseif item.name == "Editor Mode" then
                             Menu.EditorMode = item.value
-                        elseif item.name == "Flocon" then
+                        elseif item.name == "Flakes" then
                             Menu.ShowSnowflakes = item.value
                         end
                         if item.onClick then item.onClick(item.value) end
